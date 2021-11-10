@@ -1,0 +1,68 @@
+.widgetsm
+{
+    flex: 1;
+    -webkit-box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 14px 0px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #DA635D, 14px 0px 15px 5px rgba(0,0,0,0);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.widgetSmTitle
+{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.widgetSmImg
+{
+    font:40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmList
+{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+}
+
+.widgetSmListItem
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.widgetSmUser
+{
+    display: flex;
+    flex-direction: column;
+}
+.widgetSmUsername
+{
+    font-weight: 600;
+}
+.widgetSmUserTitle
+{   font-size: 22px;
+    font-weight: 300;
+}
+.widgetSmButton
+{
+    display: flex;
+    align-items: center;
+    border:none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+
+}
+.widgetSmIcon
+{
+    font-size: 16px !important;
+    margin-right:5px;
+
+}
